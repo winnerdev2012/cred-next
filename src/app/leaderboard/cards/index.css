@@ -1,0 +1,15 @@
+.leaderboard .slick-slider .slick-arrow {
+  display: none !important;
+}
+.leaderboard .slick-track {
+  display: flex;
+  gap: 16px; 
+}
+.leaderboard .slick-initialized .slick-slide
+{
+    width: 260px !important;
+}
+.leaderboard .slick-initialized .slick-slide > div 
+{
+    width: 260px !important;
+}
