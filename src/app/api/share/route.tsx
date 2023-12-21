@@ -15,6 +15,8 @@ export async function GET(request: Request) {
       ? searchParams.get('title')?.slice(0, 100)
       : 'Default title'
 
+    console.log(title);
+
     return new ImageResponse(
       (
         <div
