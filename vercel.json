@@ -9,5 +9,12 @@
         }
       ]
     }
-  ]
+  ],
+  "build": {
+    "install": {
+      "env": {
+        "YARN_FLAGS": "--force"
+      }
+    }
+  }
 }
